@@ -1,0 +1,18 @@
+#include <stdio.h>
+float findarea(float l,float b);
+int main()
+   
+   {
+       float l=5;
+       float b=6;
+       float a;
+      a= findarea(l,b);
+       printf("%f",a);
+       return 0;
+   }
+   float findarea(float l,float b)
+   {
+       float area;
+       area=l*b;
+       return area;
+   }
